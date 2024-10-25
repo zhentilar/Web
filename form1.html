@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form</title>
+</head>
+<body>
+    <nav>
+        <a href="#giris">Giriş Yap</a> | 
+        <a href="#kayit">Kayıt Ol</a> | 
+        <a href="#sifremi-unuttum">Şifremi Unuttum</a>
+    </nav>
+    
+    <!-- Giriş Formu -->
+    <section id="giris">
+        <h2>Giriş Yap</h2>
+        <form action="/giris" method="post">
+            <label for="email">E-posta:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="sifre">Şifre:</label><br>
+            <input type="password" id="sifre" name="sifre" required><br><br>
+            
+            <input type="submit" value="Giriş Yap">
+        </form>
+        <p><a href="#sifremi-unuttum">Şifremi Unuttum</a> | <a href="#kayit">Hesap Oluştur</a></p>
+    </section>
+
+    <!-- Kayıt Formu -->
+    <section id="kayit">
+        <h2>Kayıt Ol</h2>
+        <form action="/kayit" method="post">
+            <label for="ad">Ad:</label><br>
+            <input type="text" id="ad" name="ad" required><br><br>
+            
+            <label for="soyad">Soyad:</label><br>
+            <input type="text" id="soyad" name="soyad" required><br><br>
+            
+            <label for="email">E-posta:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="sifre">Şifre:</label><br>
+            <input type="password" id="sifre" name="sifre" required><br><br>
+            
+            <label>Doğum Tarihi:</label><br>
+            <label for="gun">Gün:</label>
+            <input type="number" id="gun" name="gun" min="1" max="31" required>
+            
+            <label for="ay">Ay:</label>
+            <input type="number" id="ay" name="ay" min="1" max="12" required>
+            
+            <label for="yil">Yıl:</label>
+            <input type="number" id="yil" name="yil" required><br><br>
+            
+            <input type="submit" value="Kayıt Ol">
+        </form>
+        <p><a href="#giris">Zaten bir hesabınız var mı? Giriş Yap</a></p>
+    </section>
+
+    <!-- Şifremi Unuttum Formu -->
+    <section id="sifremi-unuttum">
+        <h2>Şifremi Unuttum</h2>
+        <form action="/sifremi-unuttum" method="post">
+            <label for="email">E-posta adresinizi girin:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <input type="submit" value="Şifreyi Sıfırla">
+        </form>
+        <p><a href="#giris">Giriş Sayfasına Dön</a></p>
+    </section>
+
+</body>
+</html>
