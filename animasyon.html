@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animasyonlar</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            height: 100vh;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        .kutu {
+            width: 15vw;
+            height: 15vw;
+            position: relative;
+            border-radius: 50%;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            min-width: 150px;
+            min-height: 150px;
+            max-width: 200px;
+            max-height: 200px;
+        }
+
+        /* Animasyon sınıfları */
+        .yukari-asagi {
+            background-color: #d000ff;
+            animation: yukariAsagi 2s infinite alternate;
+        }
+        .buyume-kuculme {
+            background-color: #ff1900;
+            animation: buyumeKuculme 2s infinite alternate;
+        }
+        .kaybol-belir {
+            background-color: #e1ff00;
+            animation: kaybolBelir 2s infinite alternate;
+        }
+        .saga-sola {
+            background-color: #00ff55;
+            animation: sagaSola 2s infinite alternate;
+        }
+        .dondur {
+            background: linear-gradient(to right, #001eff 50%, #000000 50%); /* Mavi ve siyah */
+            animation: dondur 2s infinite linear;
+        }
+
+        @keyframes yukariAsagi {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(20px); }
+        }
+        @keyframes buyumeKuculme {
+            0% { transform: scale(1); }
+            100% { transform: scale(1.3); }
+        }
+        @keyframes kaybolBelir {
+            0% { opacity: 1; }
+            100% { opacity: 0.2; }
+        }
+        @keyframes sagaSola {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(20px); }
+        }
+        @keyframes dondur {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <!-- 5 farklı div-imaj -->
+    <div class="kutu yukari-asagi"></div>
+    <div class="kutu buyume-kuculme"></div>
+    <div class="kutu kaybol-belir"></div>
+    <div class="kutu saga-sola"></div>
+    <div class="kutu dondur"></div>
+</body>
+</html>
