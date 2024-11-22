@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<canvas id="myCanvas" width="300" height="300" style="border:1px solid #d3d3d3;"></canvas>
+
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+var radius = 20;
+var spacing = 50;
+var color = 120;
+var color2 = 0;
+for (var i = 0; i < 6; i++) {
+    for (var j = 0; j < 6; j++) {
+        color += 10;
+        color2 += 10;
+        ctx.beginPath();
+        var x = spacing/2 + j * spacing;
+        var y = spacing/2 + i * spacing;
+        ctx.arc(x, y, radius, 0, 2 * Math.PI);
+        ctx.strokeStyle = `rgb(0, ${color2}, ${color})`;
+        ctx.stroke();
+}
+}
+</script> 
+
+</body>
+</html>
+
