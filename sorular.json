@@ -1,0 +1,105 @@
+{
+    "questions": [
+      {
+        "question": "HTML'de bir formun kullanıcı tarafından gönderilmesini tetiklemek için hangi düğme türü kullanılır?",
+        "options": {
+          "A": "button",
+          "B": "reset",
+          "C": "submit",
+          "D": "send"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "question": "CSS'te bir öğeye iç boşluk eklemek için hangi özellik kullanılır?",
+        "options": {
+          "A": "margin",
+          "B": "padding",
+          "C": "border",
+          "D": "outline"
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "question": "HTML'de bir tablo başlığını tanımlamak için hangi etiket kullanılır?",
+        "options": {
+          "A": "<thead>",
+          "B": "<th>",
+          "C": "<caption>",
+          "D": "<tr>"
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "question": "Bir HTML dosyasında yorum eklemek için kullanılan doğru sözdizimi nedir?",
+        "options": {
+          "A": "// Bu bir yorumdur",
+          "B": "/* Bu bir yorumdur */",
+          "C": "<!-- Bu bir yorumdur -->",
+          "D": "** Bu bir yorumdur **"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "question": "CSS'te, bir öğeye dış sınır (margin) eklemek için doğru özellik aşağıdakilerden hangisidir?",
+        "options": {
+          "A": "margin-top",
+          "B": "padding",
+          "C": "border-width",
+          "D": "outline"
+        },
+        "correctAnswer": "A"
+      },
+      {
+        "question": "HTML'de tarayıcının varsayılan stili devre dışı bırakmak için hangi CSS özelliği kullanılır?",
+        "options": {
+          "A": "all: inherit;",
+          "B": "reset: none;",
+          "C": "all: unset;",
+          "D": "reset-style: true;"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "question": "Bir web sayfasında responsif tasarım için hangi HTML meta etiketi kullanılır?",
+        "options": {
+          "A": "<meta responsive=\"true\">",
+          "B": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+          "C": "<meta name=\"mobile-first\" content=\"yes\">",
+          "D": "<meta charset=\"utf-8\">"
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "question": "CSS'te metin rengini değiştirmek için kullanılan özellik hangisidir?",
+        "options": {
+          "A": "font-color",
+          "B": "text-color",
+          "C": "color",
+          "D": "background-color"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "question": "HTML'de bir formun verilerini bir başka sayfaya göndermek için hangi özellik kullanılır?",
+        "options": {
+          "A": "action",
+          "B": "method",
+          "C": "name",
+          "D": "enctype"
+        },
+        "correctAnswer": "A"
+      },
+      {
+        "question": "HTML'de bir öğeyi birden fazla sınıfa eklemek için class özelliği nasıl kullanılır?",
+        "options": {
+          "A": "class=\"class1, class2\"",
+          "B": "class=\"class1 class2\"",
+          "C": "class=\"class1; class2\"",
+          "D": "class=\"class1|class2\""
+        },
+        "correctAnswer": "B"
+      }
+    ]
+  }
+  

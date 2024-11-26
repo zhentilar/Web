@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duyuru Penceresi</title>
+    <style>
+        #duyuru {
+            position: fixed;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #f44336;
+            color: white;
+            padding: 10px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="duyuru">Duyuru mesajı!</div>
+    <script>
+        const duyuru = document.getElementById('duyuru');
+        duyuru.style.display = 'block';
+        setTimeout(() => {
+            duyuru.style.display = 'none';
+        }, 5000);
+    </script>
+</body>
+</html>
