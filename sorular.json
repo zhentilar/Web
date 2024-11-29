@@ -23,10 +23,10 @@
       {
         "question": "HTML'de bir tablo başlığını tanımlamak için hangi etiket kullanılır?",
         "options": {
-          "A": "<thead>",
-          "B": "<th>",
-          "C": "<caption>",
-          "D": "<tr>"
+          "A": "thead",
+          "B": "th",
+          "C": "caption",
+          "D": "tr"
         },
         "correctAnswer": "B"
       },
