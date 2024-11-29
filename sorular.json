@@ -31,12 +31,12 @@
         "correctAnswer": "B"
       },
       {
-        "question": "Bir HTML dosyasında yorum eklemek için kullanılan doğru sözdizimi nedir?",
+        "question": "Bir HTML belgesinin kök etiketi nedir?",
         "options": {
-          "A": "// Bu bir yorumdur",
-          "B": "/* Bu bir yorumdur */",
-          "C": "<!-- Bu bir yorumdur -->",
-          "D": "** Bu bir yorumdur **"
+          "A": "body",
+          "B": "head",
+          "C": "html",
+          "D": "doctype"
         },
         "correctAnswer": "C"
       },
@@ -61,14 +61,14 @@
         "correctAnswer": "C"
       },
       {
-        "question": "Bir web sayfasında responsif tasarım için hangi HTML meta etiketi kullanılır?",
+        "question": "HTML'de bir liste öğesi nasıl tanımlanır?",
         "options": {
-          "A": "<meta responsive=\"true\">",
-          "B": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
-          "C": "<meta name=\"mobile-first\" content=\"yes\">",
-          "D": "<meta charset=\"utf-8\">"
+          "A": "list",
+          "B": "ul",
+          "C": "li",
+          "D": "ol"
         },
-        "correctAnswer": "B"
+        "correctAnswer": "C"
       },
       {
         "question": "CSS'te metin rengini değiştirmek için kullanılan özellik hangisidir?",
