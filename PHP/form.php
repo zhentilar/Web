@@ -4,7 +4,7 @@
     <body>
         <h1>Lab Gorev</h1>
 
-        <form name='form' method='post' action="gorev.php">
+        <form name='form' method='post' action="form.php">
         Text: <input type="text" name="text" id="text" ><br/>
         <input type="submit" name="submit" value="Kaydet"> 
         <input type="submit" name="submit" value="Sil">
